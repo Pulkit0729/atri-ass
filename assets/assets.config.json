@@ -49,5 +49,11 @@
   },
   "shopping icon.png": {
     "mime": "image/png"
+  },
+  "man.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "ips.png": {
+    "mime": "image/png"
   }
 }

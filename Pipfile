@@ -9,6 +9,7 @@ uvicorn = "*"
 jsonpickle = "*"
 python-multipart = "*"
 atri-utils = "*"
+atri = "==0.0.78"
 
 [dev-packages]
 

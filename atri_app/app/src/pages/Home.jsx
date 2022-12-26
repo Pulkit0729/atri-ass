@@ -10,7 +10,8 @@ import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/I
 import { Dropdown } from "@atrilabs/react-component-manifests/src/manifests/Dropdown/Dropdown.tsx";
 import { Input } from "@atrilabs/react-component-manifests/src/manifests/Input/Input.tsx";
 import { useFlex2Cb, useFlex1Cb, useFlex3Cb, useFlex4Cb, useFlex5Cb, useFlex7Cb, useFlex11Cb, useFlex9Cb, useFlex10Cb, useFlex8Cb, useFlex15Cb, useFlex13Cb, useFlex12Cb, useFlex14Cb, useFlex19Cb, useFlex17Cb, useFlex16Cb, useFlex18Cb, useFlex23Cb, useFlex21Cb, useFlex20Cb, useFlex22Cb, useFlex25Cb, useFlex24Cb, useFlex30Cb, useFlex28Cb, useFlex26Cb, useFlex29Cb, useFlex27Cb, useFlex36Cb, useFlex34Cb, useFlex31Cb, useFlex32Cb, useFlex33Cb, useFlex35Cb, useFlex40Cb, useFlex37Cb, useFlex38Cb, useFlex39Cb, useFlex41Cb, useFlex44Cb, useFlex42Cb, useFlex43Cb, useFlex47Cb, useFlex45Cb, useFlex46Cb, useFlex51Cb, useFlex49Cb, useFlex50Cb, useFlex48Cb, useFlex62Cb, useFlex59Cb, useFlex60Cb, useFlex52Cb, useFlex53Cb, useFlex54Cb, useFlex55Cb, useFlex56Cb, useFlex57Cb, useFlex61Cb, useFlex58Cb, useFlex63Cb, useTextBox5Cb, useImage1Cb, useDropdown1Cb, useTextBox1Cb, useTextBox2Cb, useTextBox3Cb, useTextBox4Cb, useTextBox6Cb, useTextBox7Cb, useTextBox8Cb, useTextBox9Cb, useTextBox10Cb, useTextBox11Cb, useTextBox15Cb, useImage3Cb, useTextBox17Cb, useTextBox18Cb, useTextBox19Cb, useTextBox20Cb, useTextBox21Cb, useTextBox22Cb, useImage2Cb, useTextBox16Cb, useTextBox24Cb, useTextBox25Cb, useTextBox26Cb, useTextBox27Cb, useTextBox28Cb, useTextBox29Cb, useTextBox23Cb, useImage4Cb, useImage5Cb, useTextBox31Cb, useTextBox32Cb, useTextBox33Cb, useTextBox34Cb, useTextBox35Cb, useTextBox36Cb, useTextBox30Cb, useImage6Cb, useImage7Cb, useTextBox38Cb, useTextBox39Cb, useTextBox40Cb, useTextBox41Cb, useTextBox42Cb, useTextBox43Cb, useTextBox37Cb, useImage8Cb, useImage9Cb, useImage10Cb, useTextBox44Cb, useImage13Cb, useImage11Cb, useTextBox46Cb, useTextBox47Cb, useImage12Cb, useTextBox45Cb, useImage14Cb, useTextBox48Cb, useTextBox49Cb, useTextBox50Cb, useTextBox51Cb, useImage15Cb, useTextBox52Cb, useTextBox53Cb, useTextBox54Cb, useTextBox55Cb, useTextBox56Cb, useTextBox57Cb, useTextBox58Cb, useTextBox59Cb, useImage16Cb, useImage17Cb, useTextBox60Cb, useTextBox61Cb, useImage18Cb, useTextBox62Cb, useTextBox63Cb, useTextBox64Cb, useTextBox65Cb, useTextBox66Cb, useTextBox67Cb, useTextBox68Cb, useTextBox69Cb, useImage19Cb, useTextBox70Cb, useTextBox71Cb, useTextBox72Cb, useTextBox73Cb, useImage20Cb, useTextBox74Cb, useTextBox75Cb, useImage21Cb, useImage22Cb, useTextBox76Cb, useTextBox77Cb, useTextBox78Cb, useTextBox79Cb, useImage23Cb, useImage24Cb, useTextBox82Cb, useTextBox83Cb, useTextBox80Cb, useTextBox81Cb, useTextBox102Cb, useTextBox103Cb, useTextBox104Cb, useTextBox105Cb, useTextBox106Cb, useTextBox107Cb, useTextBox108Cb, useTextBox109Cb, useTextBox110Cb, useTextBox84Cb, useTextBox85Cb, useTextBox86Cb, useTextBox87Cb, useTextBox88Cb, useTextBox89Cb, useTextBox90Cb, useTextBox91Cb, useTextBox92Cb, useTextBox93Cb, useTextBox94Cb, useTextBox95Cb, useTextBox96Cb, useTextBox97Cb, useTextBox98Cb, useTextBox99Cb, useTextBox100Cb, useInput1Cb, useTextBox111Cb, useTextBox112Cb, useTextBox113Cb, useTextBox114Cb, useTextBox101Cb, useImage25Cb, useTextBox115Cb } from "../page-cbs/Home";
-import "../page-css/Home.css"
+import "../page-css/Home.css";
+import "../custom/Home";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -633,268 +634,268 @@ const TextBox115IoProps = useIoStore((state)=>state["Home"]["TextBox115"]);
 const TextBox115Cb = useTextBox115Cb()
 
   return (<>
-  <Flex className="p-Home Flex2" {...Flex2Props} {...Flex2Cb} {...Flex2IoProps}>
-<TextBox className="p-Home TextBox5" {...TextBox5Props} {...TextBox5Cb} {...TextBox5IoProps}/>
-<Flex className="p-Home Flex1" {...Flex1Props} {...Flex1Cb} {...Flex1IoProps}>
-<TextBox className="p-Home TextBox3" {...TextBox3Props} {...TextBox3Cb} {...TextBox3IoProps}/>
-<TextBox className="p-Home TextBox2" {...TextBox2Props} {...TextBox2Cb} {...TextBox2IoProps}/>
-<TextBox className="p-Home TextBox4" {...TextBox4Props} {...TextBox4Cb} {...TextBox4IoProps}/>
-<TextBox className="p-Home TextBox1" {...TextBox1Props} {...TextBox1Cb} {...TextBox1IoProps}/>
-<Dropdown className="p-Home Dropdown1" {...Dropdown1Props} {...Dropdown1Cb} {...Dropdown1IoProps}/>
-<Image className="p-Home Image1" {...Image1Props} {...Image1Cb} {...Image1IoProps}/>
+  <Flex className="p-Home Flex2 bpt" {...Flex2Props} {...Flex2Cb} {...Flex2IoProps}>
+<TextBox className="p-Home TextBox5 bpt" {...TextBox5Props} {...TextBox5Cb} {...TextBox5IoProps}/>
+<Flex className="p-Home Flex1 bpt" {...Flex1Props} {...Flex1Cb} {...Flex1IoProps}>
+<TextBox className="p-Home TextBox3 bpt" {...TextBox3Props} {...TextBox3Cb} {...TextBox3IoProps}/>
+<TextBox className="p-Home TextBox2 bpt" {...TextBox2Props} {...TextBox2Cb} {...TextBox2IoProps}/>
+<TextBox className="p-Home TextBox4 bpt" {...TextBox4Props} {...TextBox4Cb} {...TextBox4IoProps}/>
+<TextBox className="p-Home TextBox1 bpt" {...TextBox1Props} {...TextBox1Cb} {...TextBox1IoProps}/>
+<Dropdown className="p-Home Dropdown1 bpt" {...Dropdown1Props} {...Dropdown1Cb} {...Dropdown1IoProps}/>
+<Image className="p-Home Image1 bpt" {...Image1Props} {...Image1Cb} {...Image1IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex3" {...Flex3Props} {...Flex3Cb} {...Flex3IoProps}>
-<TextBox className="p-Home TextBox6" {...TextBox6Props} {...TextBox6Cb} {...TextBox6IoProps}/>
+<Flex className="p-Home Flex3 bpt" {...Flex3Props} {...Flex3Cb} {...Flex3IoProps}>
+<TextBox className="p-Home TextBox6 bpt" {...TextBox6Props} {...TextBox6Cb} {...TextBox6IoProps}/>
 </Flex>
-<Flex className="p-Home Flex4" {...Flex4Props} {...Flex4Cb} {...Flex4IoProps}>
-<TextBox className="p-Home TextBox8" {...TextBox8Props} {...TextBox8Cb} {...TextBox8IoProps}/>
-<TextBox className="p-Home TextBox7" {...TextBox7Props} {...TextBox7Cb} {...TextBox7IoProps}/>
+<Flex className="p-Home Flex4 bpt" {...Flex4Props} {...Flex4Cb} {...Flex4IoProps}>
+<TextBox className="p-Home TextBox8 bpt" {...TextBox8Props} {...TextBox8Cb} {...TextBox8IoProps}/>
+<TextBox className="p-Home TextBox7 bpt" {...TextBox7Props} {...TextBox7Cb} {...TextBox7IoProps}/>
 </Flex>
-<Flex className="p-Home Flex5" {...Flex5Props} {...Flex5Cb} {...Flex5IoProps}>
-<TextBox className="p-Home TextBox11" {...TextBox11Props} {...TextBox11Cb} {...TextBox11IoProps}/>
-<TextBox className="p-Home TextBox9" {...TextBox9Props} {...TextBox9Cb} {...TextBox9IoProps}/>
-<TextBox className="p-Home TextBox10" {...TextBox10Props} {...TextBox10Cb} {...TextBox10IoProps}/>
+<Flex className="p-Home Flex5 bpt" {...Flex5Props} {...Flex5Cb} {...Flex5IoProps}>
+<TextBox className="p-Home TextBox11 bpt" {...TextBox11Props} {...TextBox11Cb} {...TextBox11IoProps}/>
+<TextBox className="p-Home TextBox9 bpt" {...TextBox9Props} {...TextBox9Cb} {...TextBox9IoProps}/>
+<TextBox className="p-Home TextBox10 bpt" {...TextBox10Props} {...TextBox10Cb} {...TextBox10IoProps}/>
 </Flex>
-<Flex className="p-Home Flex7" {...Flex7Props} {...Flex7Cb} {...Flex7IoProps}>
-<TextBox className="p-Home TextBox15" {...TextBox15Props} {...TextBox15Cb} {...TextBox15IoProps}/>
+<Flex className="p-Home Flex7 bpt" {...Flex7Props} {...Flex7Cb} {...Flex7IoProps}>
+<TextBox className="p-Home TextBox15 bpt" {...TextBox15Props} {...TextBox15Cb} {...TextBox15IoProps}/>
 </Flex>
-<Flex className="p-Home Flex11" {...Flex11Props} {...Flex11Cb} {...Flex11IoProps}>
-<Flex className="p-Home Flex10" {...Flex10Props} {...Flex10Cb} {...Flex10IoProps}>
-<TextBox className="p-Home TextBox22" {...TextBox22Props} {...TextBox22Cb} {...TextBox22IoProps}/>
-<TextBox className="p-Home TextBox21" {...TextBox21Props} {...TextBox21Cb} {...TextBox21IoProps}/>
-<TextBox className="p-Home TextBox20" {...TextBox20Props} {...TextBox20Cb} {...TextBox20IoProps}/>
-<TextBox className="p-Home TextBox18" {...TextBox18Props} {...TextBox18Cb} {...TextBox18IoProps}/>
-<TextBox className="p-Home TextBox19" {...TextBox19Props} {...TextBox19Cb} {...TextBox19IoProps}/>
-<TextBox className="p-Home TextBox17" {...TextBox17Props} {...TextBox17Cb} {...TextBox17IoProps}/>
-<Flex className="p-Home Flex8" {...Flex8Props} {...Flex8Cb} {...Flex8IoProps}>
-<TextBox className="p-Home TextBox16" {...TextBox16Props} {...TextBox16Cb} {...TextBox16IoProps}/>
-<Image className="p-Home Image2" {...Image2Props} {...Image2Cb} {...Image2IoProps}/>
-</Flex>
-</Flex>
-<Flex className="p-Home Flex9" {...Flex9Props} {...Flex9Cb} {...Flex9IoProps}>
-<Image className="p-Home Image3" {...Image3Props} {...Image3Cb} {...Image3IoProps}/>
+<Flex className="p-Home Flex11 bpt" {...Flex11Props} {...Flex11Cb} {...Flex11IoProps}>
+<Flex className="p-Home Flex10 bpt" {...Flex10Props} {...Flex10Cb} {...Flex10IoProps}>
+<TextBox className="p-Home TextBox22 bpt" {...TextBox22Props} {...TextBox22Cb} {...TextBox22IoProps}/>
+<TextBox className="p-Home TextBox21 bpt" {...TextBox21Props} {...TextBox21Cb} {...TextBox21IoProps}/>
+<TextBox className="p-Home TextBox20 bpt" {...TextBox20Props} {...TextBox20Cb} {...TextBox20IoProps}/>
+<TextBox className="p-Home TextBox18 bpt" {...TextBox18Props} {...TextBox18Cb} {...TextBox18IoProps}/>
+<TextBox className="p-Home TextBox19 bpt" {...TextBox19Props} {...TextBox19Cb} {...TextBox19IoProps}/>
+<TextBox className="p-Home TextBox17 bpt" {...TextBox17Props} {...TextBox17Cb} {...TextBox17IoProps}/>
+<Flex className="p-Home Flex8 bpt" {...Flex8Props} {...Flex8Cb} {...Flex8IoProps}>
+<TextBox className="p-Home TextBox16 bpt" {...TextBox16Props} {...TextBox16Cb} {...TextBox16IoProps}/>
+<Image className="p-Home Image2 bpt" {...Image2Props} {...Image2Cb} {...Image2IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex15" {...Flex15Props} {...Flex15Cb} {...Flex15IoProps}>
-<Flex className="p-Home Flex13" {...Flex13Props} {...Flex13Cb} {...Flex13IoProps}>
-<TextBox className="p-Home TextBox24" {...TextBox24Props} {...TextBox24Cb} {...TextBox24IoProps}/>
-<TextBox className="p-Home TextBox25" {...TextBox25Props} {...TextBox25Cb} {...TextBox25IoProps}/>
-<TextBox className="p-Home TextBox26" {...TextBox26Props} {...TextBox26Cb} {...TextBox26IoProps}/>
-<TextBox className="p-Home TextBox28" {...TextBox28Props} {...TextBox28Cb} {...TextBox28IoProps}/>
-<TextBox className="p-Home TextBox27" {...TextBox27Props} {...TextBox27Cb} {...TextBox27IoProps}/>
-<TextBox className="p-Home TextBox29" {...TextBox29Props} {...TextBox29Cb} {...TextBox29IoProps}/>
-<Flex className="p-Home Flex12" {...Flex12Props} {...Flex12Cb} {...Flex12IoProps}>
-<TextBox className="p-Home TextBox23" {...TextBox23Props} {...TextBox23Cb} {...TextBox23IoProps}/>
-<Image className="p-Home Image4" {...Image4Props} {...Image4Cb} {...Image4IoProps}/>
+<Flex className="p-Home Flex9 bpt" {...Flex9Props} {...Flex9Cb} {...Flex9IoProps}>
+<Image className="p-Home Image3 bpt" {...Image3Props} {...Image3Cb} {...Image3IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex14" {...Flex14Props} {...Flex14Cb} {...Flex14IoProps}>
-<Image className="p-Home Image5" {...Image5Props} {...Image5Cb} {...Image5IoProps}/>
+<Flex className="p-Home Flex15 bpt" {...Flex15Props} {...Flex15Cb} {...Flex15IoProps}>
+<Flex className="p-Home Flex13 bpt" {...Flex13Props} {...Flex13Cb} {...Flex13IoProps}>
+<TextBox className="p-Home TextBox24 bpt" {...TextBox24Props} {...TextBox24Cb} {...TextBox24IoProps}/>
+<TextBox className="p-Home TextBox25 bpt" {...TextBox25Props} {...TextBox25Cb} {...TextBox25IoProps}/>
+<TextBox className="p-Home TextBox26 bpt" {...TextBox26Props} {...TextBox26Cb} {...TextBox26IoProps}/>
+<TextBox className="p-Home TextBox28 bpt" {...TextBox28Props} {...TextBox28Cb} {...TextBox28IoProps}/>
+<TextBox className="p-Home TextBox27 bpt" {...TextBox27Props} {...TextBox27Cb} {...TextBox27IoProps}/>
+<TextBox className="p-Home TextBox29 bpt" {...TextBox29Props} {...TextBox29Cb} {...TextBox29IoProps}/>
+<Flex className="p-Home Flex12 bpt" {...Flex12Props} {...Flex12Cb} {...Flex12IoProps}>
+<TextBox className="p-Home TextBox23 bpt" {...TextBox23Props} {...TextBox23Cb} {...TextBox23IoProps}/>
+<Image className="p-Home Image4 bpt" {...Image4Props} {...Image4Cb} {...Image4IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex19" {...Flex19Props} {...Flex19Cb} {...Flex19IoProps}>
-<Flex className="p-Home Flex17" {...Flex17Props} {...Flex17Cb} {...Flex17IoProps}>
-<TextBox className="p-Home TextBox31" {...TextBox31Props} {...TextBox31Cb} {...TextBox31IoProps}/>
-<TextBox className="p-Home TextBox32" {...TextBox32Props} {...TextBox32Cb} {...TextBox32IoProps}/>
-<TextBox className="p-Home TextBox33" {...TextBox33Props} {...TextBox33Cb} {...TextBox33IoProps}/>
-<TextBox className="p-Home TextBox35" {...TextBox35Props} {...TextBox35Cb} {...TextBox35IoProps}/>
-<TextBox className="p-Home TextBox34" {...TextBox34Props} {...TextBox34Cb} {...TextBox34IoProps}/>
-<TextBox className="p-Home TextBox36" {...TextBox36Props} {...TextBox36Cb} {...TextBox36IoProps}/>
-<Flex className="p-Home Flex16" {...Flex16Props} {...Flex16Cb} {...Flex16IoProps}>
-<TextBox className="p-Home TextBox30" {...TextBox30Props} {...TextBox30Cb} {...TextBox30IoProps}/>
-<Image className="p-Home Image6" {...Image6Props} {...Image6Cb} {...Image6IoProps}/>
+<Flex className="p-Home Flex14 bpt" {...Flex14Props} {...Flex14Cb} {...Flex14IoProps}>
+<Image className="p-Home Image5 bpt" {...Image5Props} {...Image5Cb} {...Image5IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex18" {...Flex18Props} {...Flex18Cb} {...Flex18IoProps}>
-<Image className="p-Home Image7" {...Image7Props} {...Image7Cb} {...Image7IoProps}/>
+<Flex className="p-Home Flex19 bpt" {...Flex19Props} {...Flex19Cb} {...Flex19IoProps}>
+<Flex className="p-Home Flex17 bpt" {...Flex17Props} {...Flex17Cb} {...Flex17IoProps}>
+<TextBox className="p-Home TextBox31 bpt" {...TextBox31Props} {...TextBox31Cb} {...TextBox31IoProps}/>
+<TextBox className="p-Home TextBox32 bpt" {...TextBox32Props} {...TextBox32Cb} {...TextBox32IoProps}/>
+<TextBox className="p-Home TextBox33 bpt" {...TextBox33Props} {...TextBox33Cb} {...TextBox33IoProps}/>
+<TextBox className="p-Home TextBox35 bpt" {...TextBox35Props} {...TextBox35Cb} {...TextBox35IoProps}/>
+<TextBox className="p-Home TextBox34 bpt" {...TextBox34Props} {...TextBox34Cb} {...TextBox34IoProps}/>
+<TextBox className="p-Home TextBox36 bpt" {...TextBox36Props} {...TextBox36Cb} {...TextBox36IoProps}/>
+<Flex className="p-Home Flex16 bpt" {...Flex16Props} {...Flex16Cb} {...Flex16IoProps}>
+<TextBox className="p-Home TextBox30 bpt" {...TextBox30Props} {...TextBox30Cb} {...TextBox30IoProps}/>
+<Image className="p-Home Image6 bpt" {...Image6Props} {...Image6Cb} {...Image6IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex23" {...Flex23Props} {...Flex23Cb} {...Flex23IoProps}>
-<Flex className="p-Home Flex21" {...Flex21Props} {...Flex21Cb} {...Flex21IoProps}>
-<TextBox className="p-Home TextBox38" {...TextBox38Props} {...TextBox38Cb} {...TextBox38IoProps}/>
-<TextBox className="p-Home TextBox39" {...TextBox39Props} {...TextBox39Cb} {...TextBox39IoProps}/>
-<TextBox className="p-Home TextBox40" {...TextBox40Props} {...TextBox40Cb} {...TextBox40IoProps}/>
-<TextBox className="p-Home TextBox42" {...TextBox42Props} {...TextBox42Cb} {...TextBox42IoProps}/>
-<TextBox className="p-Home TextBox41" {...TextBox41Props} {...TextBox41Cb} {...TextBox41IoProps}/>
-<TextBox className="p-Home TextBox43" {...TextBox43Props} {...TextBox43Cb} {...TextBox43IoProps}/>
-<Flex className="p-Home Flex20" {...Flex20Props} {...Flex20Cb} {...Flex20IoProps}>
-<TextBox className="p-Home TextBox37" {...TextBox37Props} {...TextBox37Cb} {...TextBox37IoProps}/>
-<Image className="p-Home Image8" {...Image8Props} {...Image8Cb} {...Image8IoProps}/>
+<Flex className="p-Home Flex18 bpt" {...Flex18Props} {...Flex18Cb} {...Flex18IoProps}>
+<Image className="p-Home Image7 bpt" {...Image7Props} {...Image7Cb} {...Image7IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex22" {...Flex22Props} {...Flex22Cb} {...Flex22IoProps}>
-<Image className="p-Home Image9" {...Image9Props} {...Image9Cb} {...Image9IoProps}/>
+<Flex className="p-Home Flex23 bpt" {...Flex23Props} {...Flex23Cb} {...Flex23IoProps}>
+<Flex className="p-Home Flex21 bpt" {...Flex21Props} {...Flex21Cb} {...Flex21IoProps}>
+<TextBox className="p-Home TextBox38 bpt" {...TextBox38Props} {...TextBox38Cb} {...TextBox38IoProps}/>
+<TextBox className="p-Home TextBox39 bpt" {...TextBox39Props} {...TextBox39Cb} {...TextBox39IoProps}/>
+<TextBox className="p-Home TextBox40 bpt" {...TextBox40Props} {...TextBox40Cb} {...TextBox40IoProps}/>
+<TextBox className="p-Home TextBox42 bpt" {...TextBox42Props} {...TextBox42Cb} {...TextBox42IoProps}/>
+<TextBox className="p-Home TextBox41 bpt" {...TextBox41Props} {...TextBox41Cb} {...TextBox41IoProps}/>
+<TextBox className="p-Home TextBox43 bpt" {...TextBox43Props} {...TextBox43Cb} {...TextBox43IoProps}/>
+<Flex className="p-Home Flex20 bpt" {...Flex20Props} {...Flex20Cb} {...Flex20IoProps}>
+<TextBox className="p-Home TextBox37 bpt" {...TextBox37Props} {...TextBox37Cb} {...TextBox37IoProps}/>
+<Image className="p-Home Image8 bpt" {...Image8Props} {...Image8Cb} {...Image8IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex25" {...Flex25Props} {...Flex25Cb} {...Flex25IoProps}>
-<Flex className="p-Home Flex24" {...Flex24Props} {...Flex24Cb} {...Flex24IoProps}>
-<TextBox className="p-Home TextBox44" {...TextBox44Props} {...TextBox44Cb} {...TextBox44IoProps}/>
-<Image className="p-Home Image10" {...Image10Props} {...Image10Cb} {...Image10IoProps}/>
+<Flex className="p-Home Flex22 bpt" {...Flex22Props} {...Flex22Cb} {...Flex22IoProps}>
+<Image className="p-Home Image9 bpt" {...Image9Props} {...Image9Cb} {...Image9IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex30" {...Flex30Props} {...Flex30Cb} {...Flex30IoProps}>
-<Flex className="p-Home Flex29" {...Flex29Props} {...Flex29Cb} {...Flex29IoProps}>
-<TextBox className="p-Home TextBox47" {...TextBox47Props} {...TextBox47Cb} {...TextBox47IoProps}/>
-<TextBox className="p-Home TextBox46" {...TextBox46Props} {...TextBox46Cb} {...TextBox46IoProps}/>
-<Flex className="p-Home Flex27" {...Flex27Props} {...Flex27Cb} {...Flex27IoProps}>
-<TextBox className="p-Home TextBox45" {...TextBox45Props} {...TextBox45Cb} {...TextBox45IoProps}/>
-<Image className="p-Home Image12" {...Image12Props} {...Image12Cb} {...Image12IoProps}/>
+<Flex className="p-Home Flex25 bpt" {...Flex25Props} {...Flex25Cb} {...Flex25IoProps}>
+<Flex className="p-Home Flex24 bpt" {...Flex24Props} {...Flex24Cb} {...Flex24IoProps}>
+<TextBox className="p-Home TextBox44 bpt" {...TextBox44Props} {...TextBox44Cb} {...TextBox44IoProps}/>
+<Image className="p-Home Image10 bpt" {...Image10Props} {...Image10Cb} {...Image10IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex28" {...Flex28Props} {...Flex28Cb} {...Flex28IoProps}>
-<Flex className="p-Home Flex26" {...Flex26Props} {...Flex26Cb} {...Flex26IoProps}>
-<Image className="p-Home Image11" {...Image11Props} {...Image11Cb} {...Image11IoProps}/>
-</Flex>
-<Image className="p-Home Image13" {...Image13Props} {...Image13Cb} {...Image13IoProps}/>
-</Flex>
-</Flex>
-<Flex className="p-Home Flex36" {...Flex36Props} {...Flex36Cb} {...Flex36IoProps}>
-<Flex className="p-Home Flex35" {...Flex35Props} {...Flex35Cb} {...Flex35IoProps}>
-<TextBox className="p-Home TextBox61" {...TextBox61Props} {...TextBox61Cb} {...TextBox61IoProps}/>
-<TextBox className="p-Home TextBox60" {...TextBox60Props} {...TextBox60Cb} {...TextBox60IoProps}/>
-<Image className="p-Home Image17" {...Image17Props} {...Image17Cb} {...Image17IoProps}/>
-</Flex>
-<Flex className="p-Home Flex34" {...Flex34Props} {...Flex34Cb} {...Flex34IoProps}>
-<Flex className="p-Home Flex33" {...Flex33Props} {...Flex33Cb} {...Flex33IoProps}>
-<Image className="p-Home Image16" {...Image16Props} {...Image16Cb} {...Image16IoProps}/>
-<TextBox className="p-Home TextBox58" {...TextBox58Props} {...TextBox58Cb} {...TextBox58IoProps}/>
-<TextBox className="p-Home TextBox59" {...TextBox59Props} {...TextBox59Cb} {...TextBox59IoProps}/>
-<TextBox className="p-Home TextBox56" {...TextBox56Props} {...TextBox56Cb} {...TextBox56IoProps}/>
-<TextBox className="p-Home TextBox57" {...TextBox57Props} {...TextBox57Cb} {...TextBox57IoProps}/>
-</Flex>
-<Flex className="p-Home Flex32" {...Flex32Props} {...Flex32Cb} {...Flex32IoProps}>
-<Image className="p-Home Image15" {...Image15Props} {...Image15Cb} {...Image15IoProps}/>
-<TextBox className="p-Home TextBox53" {...TextBox53Props} {...TextBox53Cb} {...TextBox53IoProps}/>
-<TextBox className="p-Home TextBox52" {...TextBox52Props} {...TextBox52Cb} {...TextBox52IoProps}/>
-<TextBox className="p-Home TextBox55" {...TextBox55Props} {...TextBox55Cb} {...TextBox55IoProps}/>
-<TextBox className="p-Home TextBox54" {...TextBox54Props} {...TextBox54Cb} {...TextBox54IoProps}/>
-</Flex>
-<Flex className="p-Home Flex31" {...Flex31Props} {...Flex31Cb} {...Flex31IoProps}>
-<Image className="p-Home Image14" {...Image14Props} {...Image14Cb} {...Image14IoProps}/>
-<TextBox className="p-Home TextBox49" {...TextBox49Props} {...TextBox49Cb} {...TextBox49IoProps}/>
-<TextBox className="p-Home TextBox48" {...TextBox48Props} {...TextBox48Cb} {...TextBox48IoProps}/>
-<TextBox className="p-Home TextBox51" {...TextBox51Props} {...TextBox51Cb} {...TextBox51IoProps}/>
-<TextBox className="p-Home TextBox50" {...TextBox50Props} {...TextBox50Cb} {...TextBox50IoProps}/>
+<Flex className="p-Home Flex30 bpt" {...Flex30Props} {...Flex30Cb} {...Flex30IoProps}>
+<Flex className="p-Home Flex29 bpt" {...Flex29Props} {...Flex29Cb} {...Flex29IoProps}>
+<TextBox className="p-Home TextBox47 bpt" {...TextBox47Props} {...TextBox47Cb} {...TextBox47IoProps}/>
+<TextBox className="p-Home TextBox46 bpt" {...TextBox46Props} {...TextBox46Cb} {...TextBox46IoProps}/>
+<Flex className="p-Home Flex27 bpt" {...Flex27Props} {...Flex27Cb} {...Flex27IoProps}>
+<TextBox className="p-Home TextBox45 bpt" {...TextBox45Props} {...TextBox45Cb} {...TextBox45IoProps}/>
+<Image className="p-Home Image12 bpt" {...Image12Props} {...Image12Cb} {...Image12IoProps}/>
 </Flex>
 </Flex>
+<Flex className="p-Home Flex28 bpt" {...Flex28Props} {...Flex28Cb} {...Flex28IoProps}>
+<Flex className="p-Home Flex26 bpt" {...Flex26Props} {...Flex26Cb} {...Flex26IoProps}>
+<Image className="p-Home Image11 bpt" {...Image11Props} {...Image11Cb} {...Image11IoProps}/>
 </Flex>
-<Flex className="p-Home Flex40" {...Flex40Props} {...Flex40Cb} {...Flex40IoProps}>
-<Flex className="p-Home Flex37" {...Flex37Props} {...Flex37Cb} {...Flex37IoProps}>
-<Image className="p-Home Image18" {...Image18Props} {...Image18Cb} {...Image18IoProps}/>
-<TextBox className="p-Home TextBox63" {...TextBox63Props} {...TextBox63Cb} {...TextBox63IoProps}/>
-<TextBox className="p-Home TextBox62" {...TextBox62Props} {...TextBox62Cb} {...TextBox62IoProps}/>
-<TextBox className="p-Home TextBox65" {...TextBox65Props} {...TextBox65Cb} {...TextBox65IoProps}/>
-<TextBox className="p-Home TextBox64" {...TextBox64Props} {...TextBox64Cb} {...TextBox64IoProps}/>
-</Flex>
-<Flex className="p-Home Flex38" {...Flex38Props} {...Flex38Cb} {...Flex38IoProps}>
-<Image className="p-Home Image19" {...Image19Props} {...Image19Cb} {...Image19IoProps}/>
-<TextBox className="p-Home TextBox68" {...TextBox68Props} {...TextBox68Cb} {...TextBox68IoProps}/>
-<TextBox className="p-Home TextBox69" {...TextBox69Props} {...TextBox69Cb} {...TextBox69IoProps}/>
-<TextBox className="p-Home TextBox66" {...TextBox66Props} {...TextBox66Cb} {...TextBox66IoProps}/>
-<TextBox className="p-Home TextBox67" {...TextBox67Props} {...TextBox67Cb} {...TextBox67IoProps}/>
-</Flex>
-<Flex className="p-Home Flex39" {...Flex39Props} {...Flex39Cb} {...Flex39IoProps}>
-<Image className="p-Home Image20" {...Image20Props} {...Image20Cb} {...Image20IoProps}/>
-<TextBox className="p-Home TextBox72" {...TextBox72Props} {...TextBox72Cb} {...TextBox72IoProps}/>
-<TextBox className="p-Home TextBox73" {...TextBox73Props} {...TextBox73Cb} {...TextBox73IoProps}/>
-<TextBox className="p-Home TextBox70" {...TextBox70Props} {...TextBox70Cb} {...TextBox70IoProps}/>
-<TextBox className="p-Home TextBox71" {...TextBox71Props} {...TextBox71Cb} {...TextBox71IoProps}/>
+<Image className="p-Home Image13 bpt" {...Image13Props} {...Image13Cb} {...Image13IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex41" {...Flex41Props} {...Flex41Cb} {...Flex41IoProps}>
-<TextBox className="p-Home TextBox74" {...TextBox74Props} {...TextBox74Cb} {...TextBox74IoProps}/>
-<TextBox className="p-Home TextBox75" {...TextBox75Props} {...TextBox75Cb} {...TextBox75IoProps}/>
-<Image className="p-Home Image21" {...Image21Props} {...Image21Cb} {...Image21IoProps}/>
+<Flex className="p-Home Flex36 bpt" {...Flex36Props} {...Flex36Cb} {...Flex36IoProps}>
+<Flex className="p-Home Flex35 bpt" {...Flex35Props} {...Flex35Cb} {...Flex35IoProps}>
+<TextBox className="p-Home TextBox61 bpt" {...TextBox61Props} {...TextBox61Cb} {...TextBox61IoProps}/>
+<TextBox className="p-Home TextBox60 bpt" {...TextBox60Props} {...TextBox60Cb} {...TextBox60IoProps}/>
+<Image className="p-Home Image17 bpt" {...Image17Props} {...Image17Cb} {...Image17IoProps}/>
 </Flex>
-<Flex className="p-Home Flex44" {...Flex44Props} {...Flex44Cb} {...Flex44IoProps}>
-<Flex className="p-Home Flex43" {...Flex43Props} {...Flex43Cb} {...Flex43IoProps}>
-<TextBox className="p-Home TextBox77" {...TextBox77Props} {...TextBox77Cb} {...TextBox77IoProps}/>
-<TextBox className="p-Home TextBox76" {...TextBox76Props} {...TextBox76Cb} {...TextBox76IoProps}/>
+<Flex className="p-Home Flex34 bpt" {...Flex34Props} {...Flex34Cb} {...Flex34IoProps}>
+<Flex className="p-Home Flex33 bpt" {...Flex33Props} {...Flex33Cb} {...Flex33IoProps}>
+<Image className="p-Home Image16 bpt" {...Image16Props} {...Image16Cb} {...Image16IoProps}/>
+<TextBox className="p-Home TextBox58 bpt" {...TextBox58Props} {...TextBox58Cb} {...TextBox58IoProps}/>
+<TextBox className="p-Home TextBox59 bpt" {...TextBox59Props} {...TextBox59Cb} {...TextBox59IoProps}/>
+<TextBox className="p-Home TextBox56 bpt" {...TextBox56Props} {...TextBox56Cb} {...TextBox56IoProps}/>
+<TextBox className="p-Home TextBox57 bpt" {...TextBox57Props} {...TextBox57Cb} {...TextBox57IoProps}/>
 </Flex>
-<Flex className="p-Home Flex42" {...Flex42Props} {...Flex42Cb} {...Flex42IoProps}>
-<Image className="p-Home Image22" {...Image22Props} {...Image22Cb} {...Image22IoProps}/>
+<Flex className="p-Home Flex32 bpt" {...Flex32Props} {...Flex32Cb} {...Flex32IoProps}>
+<Image className="p-Home Image15 bpt" {...Image15Props} {...Image15Cb} {...Image15IoProps}/>
+<TextBox className="p-Home TextBox53 bpt" {...TextBox53Props} {...TextBox53Cb} {...TextBox53IoProps}/>
+<TextBox className="p-Home TextBox52 bpt" {...TextBox52Props} {...TextBox52Cb} {...TextBox52IoProps}/>
+<TextBox className="p-Home TextBox55 bpt" {...TextBox55Props} {...TextBox55Cb} {...TextBox55IoProps}/>
+<TextBox className="p-Home TextBox54 bpt" {...TextBox54Props} {...TextBox54Cb} {...TextBox54IoProps}/>
 </Flex>
-</Flex>
-<Flex className="p-Home Flex47" {...Flex47Props} {...Flex47Cb} {...Flex47IoProps}>
-<Flex className="p-Home Flex45" {...Flex45Props} {...Flex45Cb} {...Flex45IoProps}>
-<TextBox className="p-Home TextBox78" {...TextBox78Props} {...TextBox78Cb} {...TextBox78IoProps}/>
-<TextBox className="p-Home TextBox79" {...TextBox79Props} {...TextBox79Cb} {...TextBox79IoProps}/>
-</Flex>
-<Flex className="p-Home Flex46" {...Flex46Props} {...Flex46Cb} {...Flex46IoProps}>
-<Image className="p-Home Image23" {...Image23Props} {...Image23Cb} {...Image23IoProps}/>
-</Flex>
-</Flex>
-<Flex className="p-Home Flex51" {...Flex51Props} {...Flex51Cb} {...Flex51IoProps}>
-<Flex className="p-Home Flex50" {...Flex50Props} {...Flex50Cb} {...Flex50IoProps}>
-<TextBox className="p-Home TextBox83" {...TextBox83Props} {...TextBox83Cb} {...TextBox83IoProps}/>
-<Flex className="p-Home Flex48" {...Flex48Props} {...Flex48Cb} {...Flex48IoProps}>
-<TextBox className="p-Home TextBox81" {...TextBox81Props} {...TextBox81Cb} {...TextBox81IoProps}/>
-<TextBox className="p-Home TextBox80" {...TextBox80Props} {...TextBox80Cb} {...TextBox80IoProps}/>
-</Flex>
-<TextBox className="p-Home TextBox82" {...TextBox82Props} {...TextBox82Cb} {...TextBox82IoProps}/>
-</Flex>
-<Flex className="p-Home Flex49" {...Flex49Props} {...Flex49Cb} {...Flex49IoProps}>
-<Image className="p-Home Image24" {...Image24Props} {...Image24Cb} {...Image24IoProps}/>
+<Flex className="p-Home Flex31 bpt" {...Flex31Props} {...Flex31Cb} {...Flex31IoProps}>
+<Image className="p-Home Image14 bpt" {...Image14Props} {...Image14Cb} {...Image14IoProps}/>
+<TextBox className="p-Home TextBox49 bpt" {...TextBox49Props} {...TextBox49Cb} {...TextBox49IoProps}/>
+<TextBox className="p-Home TextBox48 bpt" {...TextBox48Props} {...TextBox48Cb} {...TextBox48IoProps}/>
+<TextBox className="p-Home TextBox51 bpt" {...TextBox51Props} {...TextBox51Cb} {...TextBox51IoProps}/>
+<TextBox className="p-Home TextBox50 bpt" {...TextBox50Props} {...TextBox50Cb} {...TextBox50IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex62" {...Flex62Props} {...Flex62Cb} {...Flex62IoProps}>
-<Flex className="p-Home Flex61" {...Flex61Props} {...Flex61Cb} {...Flex61IoProps}>
-<TextBox className="p-Home TextBox114" {...TextBox114Props} {...TextBox114Cb} {...TextBox114IoProps}/>
-<TextBox className="p-Home TextBox113" {...TextBox113Props} {...TextBox113Cb} {...TextBox113IoProps}/>
-<TextBox className="p-Home TextBox112" {...TextBox112Props} {...TextBox112Cb} {...TextBox112IoProps}/>
-<TextBox className="p-Home TextBox111" {...TextBox111Props} {...TextBox111Cb} {...TextBox111IoProps}/>
-<Input className="p-Home Input1" {...Input1Props} {...Input1Cb} {...Input1IoProps}/>
-<Flex className="p-Home Flex58" {...Flex58Props} {...Flex58Cb} {...Flex58IoProps}>
-<TextBox className="p-Home TextBox101" {...TextBox101Props} {...TextBox101Cb} {...TextBox101IoProps}/>
-<Image className="p-Home Image25" {...Image25Props} {...Image25Cb} {...Image25IoProps}/>
+</Flex>
+<Flex className="p-Home Flex40 bpt" {...Flex40Props} {...Flex40Cb} {...Flex40IoProps}>
+<Flex className="p-Home Flex37 bpt" {...Flex37Props} {...Flex37Cb} {...Flex37IoProps}>
+<Image className="p-Home Image18 bpt" {...Image18Props} {...Image18Cb} {...Image18IoProps}/>
+<TextBox className="p-Home TextBox63 bpt" {...TextBox63Props} {...TextBox63Cb} {...TextBox63IoProps}/>
+<TextBox className="p-Home TextBox62 bpt" {...TextBox62Props} {...TextBox62Cb} {...TextBox62IoProps}/>
+<TextBox className="p-Home TextBox65 bpt" {...TextBox65Props} {...TextBox65Cb} {...TextBox65IoProps}/>
+<TextBox className="p-Home TextBox64 bpt" {...TextBox64Props} {...TextBox64Cb} {...TextBox64IoProps}/>
+</Flex>
+<Flex className="p-Home Flex38 bpt" {...Flex38Props} {...Flex38Cb} {...Flex38IoProps}>
+<Image className="p-Home Image19 bpt" {...Image19Props} {...Image19Cb} {...Image19IoProps}/>
+<TextBox className="p-Home TextBox68 bpt" {...TextBox68Props} {...TextBox68Cb} {...TextBox68IoProps}/>
+<TextBox className="p-Home TextBox69 bpt" {...TextBox69Props} {...TextBox69Cb} {...TextBox69IoProps}/>
+<TextBox className="p-Home TextBox66 bpt" {...TextBox66Props} {...TextBox66Cb} {...TextBox66IoProps}/>
+<TextBox className="p-Home TextBox67 bpt" {...TextBox67Props} {...TextBox67Cb} {...TextBox67IoProps}/>
+</Flex>
+<Flex className="p-Home Flex39 bpt" {...Flex39Props} {...Flex39Cb} {...Flex39IoProps}>
+<Image className="p-Home Image20 bpt" {...Image20Props} {...Image20Cb} {...Image20IoProps}/>
+<TextBox className="p-Home TextBox72 bpt" {...TextBox72Props} {...TextBox72Cb} {...TextBox72IoProps}/>
+<TextBox className="p-Home TextBox73 bpt" {...TextBox73Props} {...TextBox73Cb} {...TextBox73IoProps}/>
+<TextBox className="p-Home TextBox70 bpt" {...TextBox70Props} {...TextBox70Cb} {...TextBox70IoProps}/>
+<TextBox className="p-Home TextBox71 bpt" {...TextBox71Props} {...TextBox71Cb} {...TextBox71IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex60" {...Flex60Props} {...Flex60Cb} {...Flex60IoProps}>
-<TextBox className="p-Home TextBox110" {...TextBox110Props} {...TextBox110Cb} {...TextBox110IoProps}/>
-<Flex className="p-Home Flex57" {...Flex57Props} {...Flex57Cb} {...Flex57IoProps}>
-<TextBox className="p-Home TextBox100" {...TextBox100Props} {...TextBox100Cb} {...TextBox100IoProps}/>
-<TextBox className="p-Home TextBox98" {...TextBox98Props} {...TextBox98Cb} {...TextBox98IoProps}/>
-<TextBox className="p-Home TextBox99" {...TextBox99Props} {...TextBox99Cb} {...TextBox99IoProps}/>
+<Flex className="p-Home Flex41 bpt" {...Flex41Props} {...Flex41Cb} {...Flex41IoProps}>
+<TextBox className="p-Home TextBox74 bpt" {...TextBox74Props} {...TextBox74Cb} {...TextBox74IoProps}/>
+<TextBox className="p-Home TextBox75 bpt" {...TextBox75Props} {...TextBox75Cb} {...TextBox75IoProps}/>
+<Image className="p-Home Image21 bpt" {...Image21Props} {...Image21Cb} {...Image21IoProps}/>
 </Flex>
-<Flex className="p-Home Flex56" {...Flex56Props} {...Flex56Cb} {...Flex56IoProps}>
-<TextBox className="p-Home TextBox95" {...TextBox95Props} {...TextBox95Cb} {...TextBox95IoProps}/>
-<TextBox className="p-Home TextBox97" {...TextBox97Props} {...TextBox97Cb} {...TextBox97IoProps}/>
-<TextBox className="p-Home TextBox96" {...TextBox96Props} {...TextBox96Cb} {...TextBox96IoProps}/>
+<Flex className="p-Home Flex44 bpt" {...Flex44Props} {...Flex44Cb} {...Flex44IoProps}>
+<Flex className="p-Home Flex43 bpt" {...Flex43Props} {...Flex43Cb} {...Flex43IoProps}>
+<TextBox className="p-Home TextBox77 bpt" {...TextBox77Props} {...TextBox77Cb} {...TextBox77IoProps}/>
+<TextBox className="p-Home TextBox76 bpt" {...TextBox76Props} {...TextBox76Cb} {...TextBox76IoProps}/>
 </Flex>
-<Flex className="p-Home Flex55" {...Flex55Props} {...Flex55Cb} {...Flex55IoProps}>
-<TextBox className="p-Home TextBox92" {...TextBox92Props} {...TextBox92Cb} {...TextBox92IoProps}/>
-<TextBox className="p-Home TextBox94" {...TextBox94Props} {...TextBox94Cb} {...TextBox94IoProps}/>
-<TextBox className="p-Home TextBox93" {...TextBox93Props} {...TextBox93Cb} {...TextBox93IoProps}/>
-</Flex>
-<Flex className="p-Home Flex54" {...Flex54Props} {...Flex54Cb} {...Flex54IoProps}>
-<TextBox className="p-Home TextBox89" {...TextBox89Props} {...TextBox89Cb} {...TextBox89IoProps}/>
-<TextBox className="p-Home TextBox91" {...TextBox91Props} {...TextBox91Cb} {...TextBox91IoProps}/>
-<TextBox className="p-Home TextBox90" {...TextBox90Props} {...TextBox90Cb} {...TextBox90IoProps}/>
-</Flex>
-<Flex className="p-Home Flex53" {...Flex53Props} {...Flex53Cb} {...Flex53IoProps}>
-<TextBox className="p-Home TextBox86" {...TextBox86Props} {...TextBox86Cb} {...TextBox86IoProps}/>
-<TextBox className="p-Home TextBox88" {...TextBox88Props} {...TextBox88Cb} {...TextBox88IoProps}/>
-<TextBox className="p-Home TextBox87" {...TextBox87Props} {...TextBox87Cb} {...TextBox87IoProps}/>
-</Flex>
-<Flex className="p-Home Flex52" {...Flex52Props} {...Flex52Cb} {...Flex52IoProps}>
-<TextBox className="p-Home TextBox84" {...TextBox84Props} {...TextBox84Cb} {...TextBox84IoProps}/>
-<TextBox className="p-Home TextBox85" {...TextBox85Props} {...TextBox85Cb} {...TextBox85IoProps}/>
+<Flex className="p-Home Flex42 bpt" {...Flex42Props} {...Flex42Cb} {...Flex42IoProps}>
+<Image className="p-Home Image22 bpt" {...Image22Props} {...Image22Cb} {...Image22IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex59" {...Flex59Props} {...Flex59Cb} {...Flex59IoProps}>
-<TextBox className="p-Home TextBox109" {...TextBox109Props} {...TextBox109Cb} {...TextBox109IoProps}/>
-<TextBox className="p-Home TextBox108" {...TextBox108Props} {...TextBox108Cb} {...TextBox108IoProps}/>
-<TextBox className="p-Home TextBox107" {...TextBox107Props} {...TextBox107Cb} {...TextBox107IoProps}/>
-<TextBox className="p-Home TextBox106" {...TextBox106Props} {...TextBox106Cb} {...TextBox106IoProps}/>
-<TextBox className="p-Home TextBox105" {...TextBox105Props} {...TextBox105Cb} {...TextBox105IoProps}/>
-<TextBox className="p-Home TextBox104" {...TextBox104Props} {...TextBox104Cb} {...TextBox104IoProps}/>
-<TextBox className="p-Home TextBox103" {...TextBox103Props} {...TextBox103Cb} {...TextBox103IoProps}/>
-<TextBox className="p-Home TextBox102" {...TextBox102Props} {...TextBox102Cb} {...TextBox102IoProps}/>
+<Flex className="p-Home Flex47 bpt" {...Flex47Props} {...Flex47Cb} {...Flex47IoProps}>
+<Flex className="p-Home Flex45 bpt" {...Flex45Props} {...Flex45Cb} {...Flex45IoProps}>
+<TextBox className="p-Home TextBox78 bpt" {...TextBox78Props} {...TextBox78Cb} {...TextBox78IoProps}/>
+<TextBox className="p-Home TextBox79 bpt" {...TextBox79Props} {...TextBox79Cb} {...TextBox79IoProps}/>
+</Flex>
+<Flex className="p-Home Flex46 bpt" {...Flex46Props} {...Flex46Cb} {...Flex46IoProps}>
+<Image className="p-Home Image23 bpt" {...Image23Props} {...Image23Cb} {...Image23IoProps}/>
 </Flex>
 </Flex>
-<Flex className="p-Home Flex63" {...Flex63Props} {...Flex63Cb} {...Flex63IoProps}>
-<TextBox className="p-Home TextBox115" {...TextBox115Props} {...TextBox115Cb} {...TextBox115IoProps}/>
+<Flex className="p-Home Flex51 bpt" {...Flex51Props} {...Flex51Cb} {...Flex51IoProps}>
+<Flex className="p-Home Flex50 bpt" {...Flex50Props} {...Flex50Cb} {...Flex50IoProps}>
+<TextBox className="p-Home TextBox83 bpt" {...TextBox83Props} {...TextBox83Cb} {...TextBox83IoProps}/>
+<Flex className="p-Home Flex48 bpt" {...Flex48Props} {...Flex48Cb} {...Flex48IoProps}>
+<TextBox className="p-Home TextBox81 bpt" {...TextBox81Props} {...TextBox81Cb} {...TextBox81IoProps}/>
+<TextBox className="p-Home TextBox80 bpt" {...TextBox80Props} {...TextBox80Cb} {...TextBox80IoProps}/>
+</Flex>
+<TextBox className="p-Home TextBox82 bpt" {...TextBox82Props} {...TextBox82Cb} {...TextBox82IoProps}/>
+</Flex>
+<Flex className="p-Home Flex49 bpt" {...Flex49Props} {...Flex49Cb} {...Flex49IoProps}>
+<Image className="p-Home Image24 bpt" {...Image24Props} {...Image24Cb} {...Image24IoProps}/>
+</Flex>
+</Flex>
+<Flex className="p-Home Flex62 bpt" {...Flex62Props} {...Flex62Cb} {...Flex62IoProps}>
+<Flex className="p-Home Flex61 bpt" {...Flex61Props} {...Flex61Cb} {...Flex61IoProps}>
+<TextBox className="p-Home TextBox114 bpt" {...TextBox114Props} {...TextBox114Cb} {...TextBox114IoProps}/>
+<TextBox className="p-Home TextBox113 bpt" {...TextBox113Props} {...TextBox113Cb} {...TextBox113IoProps}/>
+<TextBox className="p-Home TextBox112 bpt" {...TextBox112Props} {...TextBox112Cb} {...TextBox112IoProps}/>
+<TextBox className="p-Home TextBox111 bpt" {...TextBox111Props} {...TextBox111Cb} {...TextBox111IoProps}/>
+<Input className="p-Home Input1 bpt" {...Input1Props} {...Input1Cb} {...Input1IoProps}/>
+<Flex className="p-Home Flex58 bpt" {...Flex58Props} {...Flex58Cb} {...Flex58IoProps}>
+<TextBox className="p-Home TextBox101 bpt" {...TextBox101Props} {...TextBox101Cb} {...TextBox101IoProps}/>
+<Image className="p-Home Image25 bpt" {...Image25Props} {...Image25Cb} {...Image25IoProps}/>
+</Flex>
+</Flex>
+<Flex className="p-Home Flex60 bpt" {...Flex60Props} {...Flex60Cb} {...Flex60IoProps}>
+<TextBox className="p-Home TextBox110 bpt" {...TextBox110Props} {...TextBox110Cb} {...TextBox110IoProps}/>
+<Flex className="p-Home Flex57 bpt" {...Flex57Props} {...Flex57Cb} {...Flex57IoProps}>
+<TextBox className="p-Home TextBox100 bpt" {...TextBox100Props} {...TextBox100Cb} {...TextBox100IoProps}/>
+<TextBox className="p-Home TextBox98 bpt" {...TextBox98Props} {...TextBox98Cb} {...TextBox98IoProps}/>
+<TextBox className="p-Home TextBox99 bpt" {...TextBox99Props} {...TextBox99Cb} {...TextBox99IoProps}/>
+</Flex>
+<Flex className="p-Home Flex56 bpt" {...Flex56Props} {...Flex56Cb} {...Flex56IoProps}>
+<TextBox className="p-Home TextBox95 bpt" {...TextBox95Props} {...TextBox95Cb} {...TextBox95IoProps}/>
+<TextBox className="p-Home TextBox97 bpt" {...TextBox97Props} {...TextBox97Cb} {...TextBox97IoProps}/>
+<TextBox className="p-Home TextBox96 bpt" {...TextBox96Props} {...TextBox96Cb} {...TextBox96IoProps}/>
+</Flex>
+<Flex className="p-Home Flex55 bpt" {...Flex55Props} {...Flex55Cb} {...Flex55IoProps}>
+<TextBox className="p-Home TextBox92 bpt" {...TextBox92Props} {...TextBox92Cb} {...TextBox92IoProps}/>
+<TextBox className="p-Home TextBox94 bpt" {...TextBox94Props} {...TextBox94Cb} {...TextBox94IoProps}/>
+<TextBox className="p-Home TextBox93 bpt" {...TextBox93Props} {...TextBox93Cb} {...TextBox93IoProps}/>
+</Flex>
+<Flex className="p-Home Flex54 bpt" {...Flex54Props} {...Flex54Cb} {...Flex54IoProps}>
+<TextBox className="p-Home TextBox89 bpt" {...TextBox89Props} {...TextBox89Cb} {...TextBox89IoProps}/>
+<TextBox className="p-Home TextBox91 bpt" {...TextBox91Props} {...TextBox91Cb} {...TextBox91IoProps}/>
+<TextBox className="p-Home TextBox90 bpt" {...TextBox90Props} {...TextBox90Cb} {...TextBox90IoProps}/>
+</Flex>
+<Flex className="p-Home Flex53 bpt" {...Flex53Props} {...Flex53Cb} {...Flex53IoProps}>
+<TextBox className="p-Home TextBox86 bpt" {...TextBox86Props} {...TextBox86Cb} {...TextBox86IoProps}/>
+<TextBox className="p-Home TextBox88 bpt" {...TextBox88Props} {...TextBox88Cb} {...TextBox88IoProps}/>
+<TextBox className="p-Home TextBox87 bpt" {...TextBox87Props} {...TextBox87Cb} {...TextBox87IoProps}/>
+</Flex>
+<Flex className="p-Home Flex52 bpt" {...Flex52Props} {...Flex52Cb} {...Flex52IoProps}>
+<TextBox className="p-Home TextBox84 bpt" {...TextBox84Props} {...TextBox84Cb} {...TextBox84IoProps}/>
+<TextBox className="p-Home TextBox85 bpt" {...TextBox85Props} {...TextBox85Cb} {...TextBox85IoProps}/>
+</Flex>
+</Flex>
+<Flex className="p-Home Flex59 bpt" {...Flex59Props} {...Flex59Cb} {...Flex59IoProps}>
+<TextBox className="p-Home TextBox109 bpt" {...TextBox109Props} {...TextBox109Cb} {...TextBox109IoProps}/>
+<TextBox className="p-Home TextBox108 bpt" {...TextBox108Props} {...TextBox108Cb} {...TextBox108IoProps}/>
+<TextBox className="p-Home TextBox107 bpt" {...TextBox107Props} {...TextBox107Cb} {...TextBox107IoProps}/>
+<TextBox className="p-Home TextBox106 bpt" {...TextBox106Props} {...TextBox106Cb} {...TextBox106IoProps}/>
+<TextBox className="p-Home TextBox105 bpt" {...TextBox105Props} {...TextBox105Cb} {...TextBox105IoProps}/>
+<TextBox className="p-Home TextBox104 bpt" {...TextBox104Props} {...TextBox104Cb} {...TextBox104IoProps}/>
+<TextBox className="p-Home TextBox103 bpt" {...TextBox103Props} {...TextBox103Cb} {...TextBox103IoProps}/>
+<TextBox className="p-Home TextBox102 bpt" {...TextBox102Props} {...TextBox102Cb} {...TextBox102IoProps}/>
+</Flex>
+</Flex>
+<Flex className="p-Home Flex63 bpt" {...Flex63Props} {...Flex63Cb} {...Flex63IoProps}>
+<TextBox className="p-Home TextBox115 bpt" {...TextBox115Props} {...TextBox115Cb} {...TextBox115IoProps}/>
 </Flex>
   </>);
 }

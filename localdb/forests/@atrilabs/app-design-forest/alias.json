@@ -1,7 +1,9 @@
 {
-  "Image": 25,
+  "Image": 40,
   "Dropdown": 1,
-  "TextBox": 115,
-  "Flex": 63,
-  "Input": 1
+  "TextBox": 117,
+  "Flex": 69,
+  "Input": 1,
+  "Button": 2,
+  "Div": 8
 }
